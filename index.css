@@ -115,6 +115,7 @@ body {
 
 .container {
     width: 1200px;
+
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -123,9 +124,7 @@ body {
 }
 
 
-.container-wide {
-    width: 1536px;
-}
+
 
 .container-wide {
     width: 1236px;
@@ -420,7 +419,7 @@ body {
 
 .story-video {
     border-radius: 18px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 895px;
     position: relative;
 }
@@ -856,6 +855,10 @@ body {
         margin: 0;
         text-align: center;
     }
+    .story-video{
+        width: 100%
+    }
+
 
 }
 
